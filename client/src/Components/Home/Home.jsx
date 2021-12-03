@@ -1,8 +1,12 @@
 import React from 'react';
+import NuevoPedido from "../NuevoPedido/NuevoPedido";
 
 function Home(){
     return(
-        <h1>Home</h1>
+        <div class="conatiner d-flex row justify-content-center">
+            <h1>Home</h1>
+            <NuevoPedido/>
+        </div>
     );
 };
 
