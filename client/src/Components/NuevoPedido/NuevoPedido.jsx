@@ -1,7 +1,7 @@
 import React from "react";
-import DatosEnvio from "../DatosEnvio/DatosEnvio";
-import DatosPaquete from "../DatosPaquete/DatosPaquete";
-import DatosRetiro from "../DatosRetiro/DatosRetiro";
+import DatosEnvio from "../FormularioDespacho/DatosEnvio";
+import DatosPaquete from "../FormularioPaquete/DatosPaquete";
+import DatosRetiro from "../FormularioRetiro/DatosRetiro";
 
 function NuevoPedido() {
     return (
@@ -10,7 +10,7 @@ function NuevoPedido() {
             <div class="accordion-item" >
                 <h2 class="accordion-header" id="panelsStayOpen-headingOne">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                        Datos de envio
+                        Datos de despacho
                     </button>
                 </h2>
                 <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
