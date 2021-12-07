@@ -44,6 +44,9 @@ function NuevoPedido() {
                 </div>
             </div>
         </div>
+        <div class="col-12">
+                <button type="submit" class="btn btn-primary">Hacer Pedido</button>
+            </div>
     </div>
     );
 };

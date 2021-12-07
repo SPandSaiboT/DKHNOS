@@ -3,7 +3,7 @@ import NuevoPedido from "../NuevoPedido/NuevoPedido";
 
 function Home(){
     return(
-        <div class="conatiner d-flex row justify-content-center">
+        <div class="conatiner col-10 d-flex row justify-content-center">
             <h1>Home</h1>
             <NuevoPedido/>
         </div>
